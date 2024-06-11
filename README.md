@@ -14,3 +14,16 @@ Starting the Django framework
 ## Create your app(named my_app here) by using command:
     python3 manage.py startapp my_app
 - Now register your app to the INSTALLED_APPS section of the setting.py(my_django_project) file, the name of the app can be found in the app.py file of my_app.
+
+## Migrations
+- Show migration:
+
+        python3 manage.py showmigrations
+- Make migration:
+    After creating the models then do the makemigrations.
+  
+        python3 manage.py makemigrations
+- Apply migration:
+    To apply that migrations into our DB run command:
+  
+        python3 manage.py migrate
