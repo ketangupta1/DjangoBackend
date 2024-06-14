@@ -27,3 +27,10 @@ Starting the Django framework
     To apply that migrations into our DB run command:
   
         python3 manage.py migrate
+- Modifying existing table:
+  Add the field in the desired table in models.py file and after that use: python3 manage.py makemigrations, you can not add the fields without giving default values. And then apply the migration using command: python3 manage.py migrate.
+
+## User:
+- Create superuser:
+
+        python3 manage.py createsuperuser
