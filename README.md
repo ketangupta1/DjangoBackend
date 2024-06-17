@@ -34,3 +34,4 @@ Starting the Django framework
 - Create superuser:
 
         python3 manage.py createsuperuser
+- If you want to see you model in admin panel then register your model to admin.py 
