@@ -15,7 +15,7 @@ def dummy_view_num(request, view_num):
 def dummy_view_kwargs(request:HttpRequest, num, **kwargs):
     # print(request.method)
     if request.method == 'GET':
-        print(f"Get view {request.GET}")
+        print(f"Get view {request.GET} ")
         # You can see the print statement if you made GET request via query parameter: http://localhost:8000/my_app/view_kwargs_68?name=Ketan
     elif request.method == 'POST':
         print(f"Post View {request.POST}")
