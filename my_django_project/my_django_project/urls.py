@@ -23,6 +23,10 @@ urlpatterns = [
     path('my_app/', include("my_app.urls")),
     path('list_books', views.list_books, {"name": "Piyush"}),
     path('list_books_class', views.ListBooks.as_view(), {"name": "Piyush"}),
-    path('my_view_html', views.my_view),
+    path('my_view', views.my_view),
+    path('my_view_1', views.my_view_1),
+    path('my_view_2', views.my_view_2),
+    path('my_view_3', views.my_view_3),
+    path('about_us', views.AboutUs.as_view()),
     path('', views.dummy_view)
 ]

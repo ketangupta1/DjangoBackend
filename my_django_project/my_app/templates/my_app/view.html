@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <p> Hello World! </p>
+        <ul>
+            <h4>{{current_time}}</h4> 
+            {%for book in content%}
+            <li>Id: {{book.id}}, Author: {{book.author}}, Title: {{book.title}}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
